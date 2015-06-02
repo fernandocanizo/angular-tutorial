@@ -17,15 +17,20 @@
   "scripts": {
     "prestart": "npm install",
     "start": "http-server -a 0.0.0.0 -p 8000",
-
     "pretest": "npm install",
     "test": "node node_modules/karma/bin/karma start test/karma.conf.js",
     "test-single-run": "node node_modules/karma/bin/karma start test/karma.conf.js  --single-run",
-
     "preupdate-webdriver": "npm install",
     "update-webdriver": "webdriver-manager update",
-
     "preprotractor": "npm run update-webdriver",
     "protractor": "protractor test/protractor-conf.js"
+  },
+  "dependencies": {
+    "angular-animate": "^1.4.0",
+    "angular-mocks": "^1.4.0",
+    "angular-resource": "^1.4.0",
+    "angular-route": "^1.4.0",
+    "bootstrap": "^3.3.4",
+    "jquery": "^2.1.4"
   }
 }
