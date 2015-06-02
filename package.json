@@ -1,7 +1,7 @@
 {
   "version": "0.0.0",
   "private": true,
-  "name": "Angular.js Tutorial",
+  "name": "angular.js-tutorial",
   "description": "A tutorial application from AngularJS docs",
   "repository": "https://github.com/fernandocanizo/angular-tutorial",
   "license": "MIT",
